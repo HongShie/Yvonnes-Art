@@ -90,7 +90,7 @@ p{
     rotate: 90deg;
 }
 #gallery{
-    height: 380vh;              /* +80vh per Gallery */
+    height: 540vh;              /* +80vh per Gallery */
 }
 #gallery_nav{
     display: flex;
@@ -135,7 +135,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 325vh;              /* +80vh per Gallery */
+    height: 485vh;              /* +80vh per Gallery */
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -387,6 +387,130 @@ p{
 }
 
 
+#gallery_5{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 10vh;
+}
+#gallery_5_left{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+#gallery_5_left_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+#gallery_5_left_top>img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#gallery_5_left_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+    height: 20%;
+}
+#gallery_5_right{
+    width: 50%;
+    height: 100%;
+}
+#gallery_5_right_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+#gallery_5_right_top>img{
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+}
+#gallery_5_right_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+    height: 20%;
+}
+
+
+#gallery_6{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 10vh;
+}
+#gallery_6_left{
+    width: 50%;
+    height: 100%;
+}
+#gallery_6_left_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+#gallery_6_left_top>img{
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+}
+#gallery_6_left_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 20%;
+}
+#gallery_6_right{
+    width: 50%;
+    height: 100%;
+}
+#gallery_6_right_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+#gallery_6_right_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+#gallery_6_right_top>img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#gallery_6_right_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 20%;
+}
+
+
 #about{
     height: 85vh;
     background-position: center;
@@ -526,14 +650,12 @@ p{
   }
 
 
-
-
 @media screen and (max-width: 1200px) {
     #gallery{
         height: 535vh;
     }
     #gallery_showcase{
-        height: 640vh;          /* +160vh per gallery */
+        height: 960vh;          /* +160vh per gallery */
         padding-left: 75px;
         padding-right: 75px;
     }
@@ -602,6 +724,39 @@ p{
         height: 50%;
     }
 
+    #gallery_5{
+        flex-wrap: wrap;
+        height: 169vh;
+    }
+    #gallery_5_left{
+        width: 100%;
+        height: 50%;
+    }
+
+    #gallery_5_right{
+        width: 100%;
+        height: 50%;
+    }
+    #gallery_5_right_top>img{
+        width: auto;
+    }
+
+    #gallery_6{
+        flex-wrap: wrap;
+        height: 160vh;
+    }
+    #gallery_6_left{
+        width: 100%;
+        height: 50%;
+    }
+    #gallery_6_left_top>img{
+        width: auto;
+    }
+    #gallery_6_right{
+        width: 100%;
+        height: 50%;
+    }
+
     #about_content{
         flex-wrap: wrap;
     }
@@ -653,7 +808,7 @@ p{
         font-size: 50px;
     }
     #gallery{
-        height: 680vh;          /* +160vh per Gallery */
+        height: 1000vh;          /* +160vh per Gallery */
     }
     #gallery_nav_right{
         padding-right: 10px;
