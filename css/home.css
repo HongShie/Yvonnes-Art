@@ -22,6 +22,8 @@ p{
     background-size: cover;
     background-position: center;
     background-image: url(../img/feature_page.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
 }
 #feature_top{
     position: -webkit-sticky;
@@ -29,7 +31,6 @@ p{
     top: 0;
     display: flex;
     height: 12.5vh;
-    background-color: rgba(0, 0, 0, 0.15);
 }
 #feature_top_left{
     display: flex;
@@ -58,7 +59,6 @@ p{
     justify-content: center;
     align-items: center;
     height: 75vh;
-    background-color: rgba(0, 0, 0, 0.15);
 }
 #feature_middle>div{
     width: 70%;
@@ -76,7 +76,6 @@ p{
 }
 #feature_bottom{
     height: 12.5vh;
-    background-color: rgba(0, 0, 0, 0.15);
     color: aliceblue;
     font-size: 18px;
 }
