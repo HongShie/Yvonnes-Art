@@ -469,6 +469,8 @@ p{
     }
     #gallery_showcase{
         height: 480vh;
+        padding-left: 75px;
+        padding-right: 75px;
     }
     #gallery_1{
         flex-wrap: wrap;
@@ -478,12 +480,12 @@ p{
         width: 100%;
         height: 50%;
     }
-    #gallery_1_left_top>img{
-        width: auto;
-    }
     #gallery_1_right{
         width: 100%;
         height: 50%;
+    }
+    #gallery_1_right_top>img{
+        width: auto;
     }
     
     #gallery_2{
@@ -494,12 +496,12 @@ p{
         width: 100%;
         height: 50%;
     }
+    #gallery_2_left_top>img{
+        width: auto;
+    }
     #gallery_2_right{
         width: 100%;
         height: 50%;
-    }
-    #gallery_2_right_top>img{
-        width: auto;
     }
 
     #gallery_3{
@@ -510,12 +512,13 @@ p{
         width: 100%;
         height: 50%;
     }
-    #gallery_3_left_top>img{
-        width: auto;
-    }
+
     #gallery_3_right{
         width: 100%;
         height: 50%;
+    }
+    #gallery_3_right_top>img{
+        width: auto;
     }
 
     #about_content{
@@ -562,29 +565,46 @@ p{
 }
 
 @media screen and (max-width: 750px){
+    #feature_top_right{
+        padding-right: 10px;
+    }
     #feature_middle>p{
         font-size: 50px;
     }
+    #gallery{
+        height: 520vh;
+    }
+    #gallery_nav_right{
+        padding-right: 10px;
+    }
     #gallery_title{
+        height: 25vh;
         font-size: 40px;
+    }
+    #gallery_showcase{
+        padding-left: 50px;
+        padding-right: 50px;
     }
     #about_action{
         padding-left: 3rem;
-      }
-      #about_content{
+    }
+    #about_nav_right{
+        padding-right: 10px;
+    }
+    #about_content{
         padding-left: 3rem;
-      }
-      #about_left{
+    }
+    #about_left{
         padding: 0%;
-      }
-      #about_right{
+    }
+    #about_right{
         padding: 0%;
-      }
-      #about_right_top{
+    }
+    #about_right_top{
         font-size: 30px;
-      }
-      #about_right_bottom{
+    }
+    #about_right_bottom{
         width: 90%;
         font-size: 12.5px;
-      }
+    }
 }
