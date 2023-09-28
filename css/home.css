@@ -89,8 +89,11 @@ p{
     height: 25%;
     rotate: 90deg;
 }
+
+
 #gallery{
     height: 540vh;              /* +80vh per Gallery */
+    background-color: #EEECEA;
 }
 #gallery_nav{
     display: flex;
@@ -519,6 +522,7 @@ p{
     margin-right: 100px; */
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
+    background-color: #EEECEA;
 }  
 #about_nav{
     display: flex;
