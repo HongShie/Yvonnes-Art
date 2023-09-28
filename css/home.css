@@ -682,6 +682,9 @@ p{
         width: 100%;
         height: 50%;
     }
+    #gallery_1_left_top>a{
+        width: 80%;
+    }
     #gallery_1_right{
         width: 100%;
         height: 50%;
